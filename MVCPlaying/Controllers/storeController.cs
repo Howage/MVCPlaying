@@ -8,8 +8,17 @@ namespace MVCPlaying.Controllers
 {
     public class storeController : Controller
     {
+       public ActionResult Index()
+        {
+            return View();
+        }
+        public string Welcome()
+        {
+            return "This is the Welcome Action Method...";
+        }
         // GET: store
-        public ActionResult Index()
+       
+        public ActionResult about()
         {
             return View();
         }
