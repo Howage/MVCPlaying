@@ -7,5 +7,9 @@ namespace MVCPlaying.Models
 {
     public class Store
     {
+        public int Item { get; set; }
+
+        public int Price { get; set; }
+
     }
 }
